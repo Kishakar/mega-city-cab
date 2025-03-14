@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Carbook - Free Bootstrap 4 Template by Colorlib</title>
+<title>Mega City Cab</title>
 	<meta charset="utf-8">
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,7 +38,7 @@
 		class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
 		id="ftco-navbar">
 		<div class="container">
-			<a href="#" class="logo">Mega City<span>Cab</span></a>
+			<a class="navbar-brand" href="index.html">Mega City<span>Cab</span></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#ftco-nav" aria-controls="ftco-nav"
 				aria-expanded="false" aria-label="Toggle navigation">
@@ -47,15 +47,13 @@
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="index.html"
+					<li class="nav-item active"><a href="home.jsp"
 						class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-					<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-					<li class="nav-item"><a href="car.html" class="nav-link">Cars</a></li>
-					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a href="booking.jsp" class="nav-link">Book
+							A Cab</a></li>
+					<li class="nav-item"><a href="dashboard.jsp" class="nav-link">Dashboard</a></li>
 					<li class="nav-item"><a href="login.jsp" class="nav-link">Login</a></li>
+					<li class="nav-item"><a href="register.jsp" class="nav-link">Register New Customer</a></li>
 				</ul>
 			</div>
 		</div>
@@ -71,7 +69,7 @@
 				class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
 				<div class="col-lg-8 ftco-animate">
 					<div class="text w-100 text-center mb-md-5 pb-md-5">
-						<h1 class="mb-4">Fast &amp; Easy Way To Rent A Car</h1>
+						<h1 class="mb-4">New Customer Register</h1>
 						<p style="font-size: 18px;">A small river named Duden flows by
 							their place and supplies it with the necessary regelialia. It is
 							a paradisematic country, in which roasted parts</p>
@@ -142,25 +140,11 @@
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">
-							<a href="#" class="logo">Car<span>book</span></a>
+							<a href="#" class="logo">Mega City<span>Cab</span></a>
 						</h2>
 						<p>Far far away, behind the word mountains, far from the
 							countries Vokalia and Consonantia, there live the blind texts.</p>
 					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-
-					<p>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;
-						<script>document.write(new Date().getFullYear());</script>
-						All rights reserved | This template is made with <i
-							class="icon-heart color-danger" aria-hidden="true"></i> by <a
-							href="https://colorlib.com" target="_blank">Colorlib</a>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					</p>
 				</div>
 			</div>
 		</div>

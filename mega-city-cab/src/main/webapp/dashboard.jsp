@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Carbook - Free Bootstrap 4 Template by Colorlib</title>
-	<meta charset="utf-8">
-	<meta name="viewport"
-		content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
-	<link
-		href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap"
-		rel="stylesheet">
-	
-	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	
-	<link rel="stylesheet" href="css/aos.css">
-	
-	<link rel="stylesheet" href="css/ionicons.min.css">
-	
-	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
-	<link rel="stylesheet" href="css/jquery.timepicker.css">
-	
-	
-	<link rel="stylesheet" href="css/flaticon.css">
-	<link rel="stylesheet" href="css/icomoon.css">
-	<link rel="stylesheet" href="css/style.css">
-	
-	<link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">	
+<title>Mega City Cab</title>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link
+	href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap"
+	rel="stylesheet">
+
+<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+<link rel="stylesheet" href="css/aos.css">
+
+<link rel="stylesheet" href="css/ionicons.min.css">
+
+<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+<link rel="stylesheet" href="css/flaticon.css">
+<link rel="stylesheet" href="css/icomoon.css">
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+	href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 
 </head>
 <body>
@@ -38,7 +39,7 @@
 		class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
 		id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">Car<span>Book</span></a>
+			<a class="navbar-brand" href="index.html">Mega City<span>Cab</span></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#ftco-nav" aria-controls="ftco-nav"
 				aria-expanded="false" aria-label="Toggle navigation">
@@ -47,15 +48,13 @@
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="index.html"
+					<li class="nav-item active"><a href="home.jsp"
 						class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-					<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-					<li class="nav-item"><a href="car.html" class="nav-link">Cars</a></li>
-					<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a href="booking.jsp" class="nav-link">Book
+							A Cab</a></li>
+					<li class="nav-item"><a href="dashboard.jsp" class="nav-link">Dashboard</a></li>
 					<li class="nav-item"><a href="login.jsp" class="nav-link">Login</a></li>
+					<li class="nav-item"><a href="register.jsp" class="nav-link">Register New Customer</a></li>
 				</ul>
 			</div>
 		</div>
@@ -71,7 +70,7 @@
 				class="row no-gutters slider-text justify-content-start align-items-center justify-content-center">
 				<div class="col-lg-8 ftco-animate">
 					<div class="text w-100 text-center mb-md-5 pb-md-5">
-						<h1 class="mb-4">Fast &amp; Easy Way To Rent A Car</h1>
+						<h1 class="mb-4">Dashboard</h1>
 						<p style="font-size: 18px;">A small river named Duden flows by
 							their place and supplies it with the necessary regelialia. It is
 							a paradisematic country, in which roasted parts</p>
@@ -88,36 +87,29 @@
 
 	<section class="ftco-section">
 		<div class="container">
-			<table id="cabBookings" class="table table-striped table-hover table-bordered">
-			    <thead>
-			        <tr>
-			            <th>Booking ID</th>
-			            <th>Customer Name</th>
-			            <th>Pickup Location</th>
-			            <th>Drop Location</th>
-			            <th>Booking Date</th>
-			            <th>Status</th>
-			        </tr>
-			    </thead>
-			    <tbody>
-			        <tr>
-			            <td>1001</td>
-			            <td>John Doe</td>
-			            <td>Main Street</td>
-			            <td>Airport</td>
-			            <td>2025-03-13</td>
-			            <td><span class="badge bg-success">Completed</span></td>
-			        </tr>
-			        <tr>
-			            <td>1002</td>
-			            <td>Jane Smith</td>
-			            <td>Downtown</td>
-			            <td>Train Station</td>
-			            <td>2025-03-12</td>
-			            <td><span class="badge bg-warning text-dark">Pending</span></td>
-			        </tr>
-			    </tbody>
+			<table id="cabBookings"
+				class="table table-striped table-bordered table-hover">
+				<thead>
+					<tr>
+						<th>Booking ID</th>
+						<th>Car Name</th>
+						<th>Brand</th>
+						<th>Price</th>
+						<th>Date From</th>
+						<th>Date To</th>
+						<th>Passengers</th>
+						<th>Driver Needed</th>
+						<th>Customer Name</th>
+						<th>Contact Number</th>
+						<th>Email</th>
+						<th>Booking Date</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- AJAX populated -->
+				</tbody>
 			</table>
+
 
 		</div>
 	</section>
@@ -128,25 +120,11 @@
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
 						<h2 class="ftco-heading-2">
-							<a href="#" class="logo">Car<span>book</span></a>
+							<a href="#" class="logo">Mega City<span>Cab</span></a>
 						</h2>
 						<p>Far far away, behind the word mountains, far from the
 							countries Vokalia and Consonantia, there live the blind texts.</p>
 					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-
-					<p>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-						Copyright &copy;
-						<script>document.write(new Date().getFullYear());</script>
-						All rights reserved | This template is made with <i
-							class="icon-heart color-danger" aria-hidden="true"></i> by <a
-							href="https://colorlib.com" target="_blank">Colorlib</a>
-						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					</p>
 				</div>
 			</div>
 		</div>
@@ -183,18 +161,41 @@
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+	<script
+		src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 	<script>
-	    $(document).ready(function() {
-	        $('#cabBookings').DataTable({
-	            "paging": true,
-	            "searching": true,
-	            "ordering": true, 
-	            "info": true,
-	            "responsive": true
-	        });
-	    });
-	</script>
+    $(document).ready(function () {
+        $('#cabBookings').DataTable({
+            ajax: {
+                url: '/mega-city-cab/ViewBookingsServlet',
+                dataSrc: ''
+            },
+            columns: [
+                { data: 0 },
+                { data: 1 },
+                { data: 2 },
+                { 
+                  data: 3,
+                  render: $.fn.dataTable.render.number(',', '.', 2, '$')
+                },
+                { data: 4 },
+                { data: 5 },
+                { data: 6 },
+                { data: 7 },
+                { data: 8 },
+                { data: 9 },
+                { data: 10 },
+                { data: 11 }
+            ],
+            responsive: true,
+            ordering: true,
+            paging: true,
+            searching: true,
+            info: true
+        });
+    });
+</script>
+
 
 
 

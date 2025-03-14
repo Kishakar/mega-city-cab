@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Carbook - Free Bootstrap 4 Template by Colorlib</title>
+<title>Mega City Cab</title>
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -42,7 +42,7 @@
 		class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
 		id="ftco-navbar">
 		<div class="container">
-			<a href="#" class="logo">Mega City<span>Cab</span></a>
+			<a class="navbar-brand" href="index.html">Mega City<span>Cab</span></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#ftco-nav" aria-controls="ftco-nav"
 				aria-expanded="false" aria-label="Toggle navigation">
@@ -51,12 +51,13 @@
 
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="index.html"
+					<li class="nav-item active"><a href="home.jsp"
 						class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Book
+					<li class="nav-item"><a href="booking.jsp" class="nav-link">Book
 							A Cab</a></li>
 					<li class="nav-item"><a href="dashboard.jsp" class="nav-link">Dashboard</a></li>
 					<li class="nav-item"><a href="login.jsp" class="nav-link">Login</a></li>
+					<li class="nav-item"><a href="register.jsp" class="nav-link">Register New Customer</a></li>
 				</ul>
 			</div>
 		</div>
